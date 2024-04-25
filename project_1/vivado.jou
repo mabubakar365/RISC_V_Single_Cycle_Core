@@ -1,0 +1,49 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Thu Apr 25 21:07:54 2024
+# Process ID: 29344
+# Current directory: C:/Users/abu.bakar/Documents/RISC_V_Single_Cycle_Core/project_1
+# Command line: vivado.exe C:\Users\abu.bakar\Documents\RISC_V_Single_Cycle_Core\project_1\project_1.xpr
+# Log file: C:/Users/abu.bakar/Documents/RISC_V_Single_Cycle_Core/project_1/vivado.log
+# Journal file: C:/Users/abu.bakar/Documents/RISC_V_Single_Cycle_Core/project_1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/abu.bakar/Documents/RISC_V_Single_Cycle_Core/project_1/project_1.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+open_wave_config C:/Users/abu.bakar/Documents/RISC_V_Single_Cycle_Core/project_1/RISCV_Single_Cycle_Processor_Top_tb_behav.wcfg
+source RISCV_Single_Cycle_Processor_Top_tb.tcl
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+save_wave_config {C:/Users/abu.bakar/Documents/RISC_V_Single_Cycle_Core/project_1/RISCV_Single_Cycle_Processor_Top_tb_behav.wcfg}
+close_sim

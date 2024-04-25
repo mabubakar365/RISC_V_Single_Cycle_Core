@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Wed Apr 24 21:24:15 2024
+# Process ID: 16872
+# Current directory: C:/Users/abu.bakar/Documents/RISC_V_Single_Cycle_Core/project_1/project_1.sim/sim_1/behav/xsim
+# Command line: wbtcv.exe -mode batch -source C:/Users/abu.bakar/Documents/RISC_V_Single_Cycle_Core/project_1/project_1.sim/sim_1/behav/xsim/xsim.dir/Control_Unit_Top_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: C:/Users/abu.bakar/Documents/RISC_V_Single_Cycle_Core/project_1/project_1.sim/sim_1/behav/xsim/webtalk.log
+# Journal file: C:/Users/abu.bakar/Documents/RISC_V_Single_Cycle_Core/project_1/project_1.sim/sim_1/behav/xsim\webtalk.jou
+#-----------------------------------------------------------
+source C:/Users/abu.bakar/Documents/RISC_V_Single_Cycle_Core/project_1/project_1.sim/sim_1/behav/xsim/xsim.dir/Control_Unit_Top_tb_behav/webtalk/xsim_webtalk.tcl -notrace

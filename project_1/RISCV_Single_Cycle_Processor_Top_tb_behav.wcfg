@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="RISCV_Single_Cycle_Processor_Top_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="RISCV_Single_Cycle_Processor_Top_tb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="66666666fs"></ZoomStartTime>
+      <ZoomEndTime time="466666667fs"></ZoomEndTime>
+      <Cursor1Time time="400000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="297"></NameColumnWidth>
+      <ValueColumnWidth column_width="113"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="10" />
+   <wvobject fp_name="/RISCV_Single_Cycle_Processor_Top_tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/RISCV_Single_Cycle_Processor_Top_tb/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="group279" type="group">
+      <obj_property name="label">PC</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/RISCV_Single_Cycle_Processor_Top_tb/UUT/PCounter_uut/PC" type="array">
+         <obj_property name="ElementShortName">PC[31:0]</obj_property>
+         <obj_property name="ObjectShortName">PC[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISCV_Single_Cycle_Processor_Top_tb/UUT/PCounter_uut/PC_NEXT" type="array">
+         <obj_property name="ElementShortName">PC_NEXT[31:0]</obj_property>
+         <obj_property name="ObjectShortName">PC_NEXT[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group210" type="group">
+      <obj_property name="label">Instruction Memory</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/RISCV_Single_Cycle_Processor_Top_tb/UUT/instruction_memory_uut/A" type="array">
+         <obj_property name="ElementShortName">A[31:0]</obj_property>
+         <obj_property name="ObjectShortName">A[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISCV_Single_Cycle_Processor_Top_tb/UUT/instruction_memory_uut/Rd" type="array">
+         <obj_property name="ElementShortName">Rd[31:0]</obj_property>
+         <obj_property name="ObjectShortName">Rd[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group312" type="group">
+      <obj_property name="label">PC Adder</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/RISCV_Single_Cycle_Processor_Top_tb/UUT/PC_Adder_uut/A" type="array">
+         <obj_property name="ElementShortName">A[31:0]</obj_property>
+         <obj_property name="ObjectShortName">A[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISCV_Single_Cycle_Processor_Top_tb/UUT/PC_Adder_uut/B" type="array">
+         <obj_property name="ElementShortName">B[31:0]</obj_property>
+         <obj_property name="ObjectShortName">B[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISCV_Single_Cycle_Processor_Top_tb/UUT/PC_Adder_uut/C" type="array">
+         <obj_property name="ElementShortName">C[31:0]</obj_property>
+         <obj_property name="ObjectShortName">C[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group348" type="group">
+      <obj_property name="label">Signal Extend</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/RISCV_Single_Cycle_Processor_Top_tb/UUT/Sign_Extend_uut/In" type="array">
+         <obj_property name="ElementShortName">In[31:0]</obj_property>
+         <obj_property name="ObjectShortName">In[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISCV_Single_Cycle_Processor_Top_tb/UUT/Sign_Extend_uut/Imm_Extend" type="array">
+         <obj_property name="ElementShortName">Imm_Extend[31:0]</obj_property>
+         <obj_property name="ObjectShortName">Imm_Extend[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group415" type="group">
+      <obj_property name="label">Register File</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/RISCV_Single_Cycle_Processor_Top_tb/UUT/Register_files_uut/A1" type="array">
+         <obj_property name="ElementShortName">A1[4:0]</obj_property>
+         <obj_property name="ObjectShortName">A1[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISCV_Single_Cycle_Processor_Top_tb/UUT/Register_files_uut/A2" type="array">
+         <obj_property name="ElementShortName">A2[4:0]</obj_property>
+         <obj_property name="ObjectShortName">A2[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISCV_Single_Cycle_Processor_Top_tb/UUT/Register_files_uut/A3" type="array">
+         <obj_property name="ElementShortName">A3[4:0]</obj_property>
+         <obj_property name="ObjectShortName">A3[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISCV_Single_Cycle_Processor_Top_tb/UUT/Register_files_uut/RD1" type="array">
+         <obj_property name="ElementShortName">RD1[31:0]</obj_property>
+         <obj_property name="ObjectShortName">RD1[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISCV_Single_Cycle_Processor_Top_tb/UUT/Register_files_uut/RD2" type="array">
+         <obj_property name="ElementShortName">RD2[31:0]</obj_property>
+         <obj_property name="ObjectShortName">RD2[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISCV_Single_Cycle_Processor_Top_tb/UUT/Register_files_uut/WE3" type="logic">
+         <obj_property name="ElementShortName">WE3</obj_property>
+         <obj_property name="ObjectShortName">WE3</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISCV_Single_Cycle_Processor_Top_tb/UUT/Register_files_uut/WD3" type="array">
+         <obj_property name="ElementShortName">WD3[31:0]</obj_property>
+         <obj_property name="ObjectShortName">WD3[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group426" type="group">
+      <obj_property name="label">ALU</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/RISCV_Single_Cycle_Processor_Top_tb/UUT/ALU_uut/A" type="array">
+         <obj_property name="ElementShortName">A[31:0]</obj_property>
+         <obj_property name="ObjectShortName">A[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISCV_Single_Cycle_Processor_Top_tb/UUT/ALU_uut/B" type="array">
+         <obj_property name="ElementShortName">B[31:0]</obj_property>
+         <obj_property name="ObjectShortName">B[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISCV_Single_Cycle_Processor_Top_tb/UUT/ALU_uut/ALUControl" type="array">
+         <obj_property name="ElementShortName">ALUControl[2:0]</obj_property>
+         <obj_property name="ObjectShortName">ALUControl[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISCV_Single_Cycle_Processor_Top_tb/UUT/ALU_uut/Result" type="array">
+         <obj_property name="ElementShortName">Result[31:0]</obj_property>
+         <obj_property name="ObjectShortName">Result[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group443" type="group">
+      <obj_property name="label">Control Unit</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/RISCV_Single_Cycle_Processor_Top_tb/UUT/Control_Unit_Top_uut/Op" type="array">
+         <obj_property name="ElementShortName">Op[6:0]</obj_property>
+         <obj_property name="ObjectShortName">Op[6:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISCV_Single_Cycle_Processor_Top_tb/UUT/Control_Unit_Top_uut/funct3" type="array">
+         <obj_property name="ElementShortName">funct3[2:0]</obj_property>
+         <obj_property name="ObjectShortName">funct3[2:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISCV_Single_Cycle_Processor_Top_tb/UUT/Control_Unit_Top_uut/ALUControl" type="array">
+         <obj_property name="ElementShortName">ALUControl[2:0]</obj_property>
+         <obj_property name="ObjectShortName">ALUControl[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISCV_Single_Cycle_Processor_Top_tb/UUT/Control_Unit_Top_uut/RegWrite" type="logic">
+         <obj_property name="ElementShortName">RegWrite</obj_property>
+         <obj_property name="ObjectShortName">RegWrite</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group455" type="group">
+      <obj_property name="label">Data Memory</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/RISCV_Single_Cycle_Processor_Top_tb/UUT/Data_Memory_uut/A" type="array">
+         <obj_property name="ElementShortName">A[31:0]</obj_property>
+         <obj_property name="ObjectShortName">A[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISCV_Single_Cycle_Processor_Top_tb/UUT/Data_Memory_uut/RD" type="array">
+         <obj_property name="ElementShortName">RD[31:0]</obj_property>
+         <obj_property name="ObjectShortName">RD[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISCV_Single_Cycle_Processor_Top_tb/UUT/Data_Memory_uut/WD" type="array">
+         <obj_property name="ElementShortName">WD[31:0]</obj_property>
+         <obj_property name="ObjectShortName">WD[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RISCV_Single_Cycle_Processor_Top_tb/UUT/Data_Memory_uut/WE" type="logic">
+         <obj_property name="ElementShortName">WE</obj_property>
+         <obj_property name="ObjectShortName">WE</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>
